@@ -1,4 +1,4 @@
-# Task 3: H2 Database Integration
+# Task 3: H2 Integration
 
 **Duration:** 30-60 mins | **Status:** Completed
 
