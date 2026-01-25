@@ -30,6 +30,12 @@ Forked [https://github.com/iamanjali1003/forage-midas](https://github.com/iamanj
 
 Added `kafka-topic` property for transaction processing configuration.
 
+## Quiz Answer
+
+**Q: What output do you see when running TaskOneTests?**
+
+**A: 1142725631254665682354316777216387420489**
+
 ## Pull Request
 
 [PR #1: feat(task-1): add project dependencies and kafka config](https://github.com/iamanjali1003/forage-midas/pull/1)

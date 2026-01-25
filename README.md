@@ -8,9 +8,10 @@ A financial transaction processing system integrating Kafka, SQL Database, and R
 
 ## Tasks
 
-| Task                  | Title         | Status    |
-| --------------------- | ------------- | --------- |
-| [Task 1](./task-1.md) | Project Setup | Completed |
+| Task                  | Title             | Status    |
+| --------------------- | ----------------- | --------- |
+| [Task 1](./task-1.md) | Project Setup     | Completed |
+| [Task 2](./task-2.md) | Kafka Integration | Completed |
 
 ## Repository
 
