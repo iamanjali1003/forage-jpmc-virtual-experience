@@ -34,7 +34,12 @@ Added `kafka-topic` property for transaction processing configuration.
 
 **Q: What output do you see when running TaskOneTests?**
 
-**A: 1142725631254665682354316777216387420489**
+**A:**
+
+```
+---begin output ---
+1142725631254665682354316777216387420489
+```
 
 ## Pull Request
 
