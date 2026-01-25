@@ -13,6 +13,7 @@ A financial transaction processing system integrating Kafka, SQL Database, and R
 | [Task 1](./task-1.md) | Project Setup           | Completed |
 | [Task 2](./task-2.md) | Kafka Integration       | Completed |
 | [Task 3](./task-3.md) | H2 Database Integration | Completed |
+| [Task 4](./task-4.md) | REST API Integration    | Completed |
 
 ## Repository
 
