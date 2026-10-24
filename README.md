@@ -1,58 +1,52 @@
-# JPMorgan Chase Software Engineering Virtual Experience
+![JPMorgan Chase Simulation](.github/banner.png)
 
-JPMorganChase Software Engineering Job Simulation on Forage - January 2026
+Task write-ups from JPMorgan Chase's Software Engineering job simulation on Forage, January 2026.
 
-- Integrated Kafka into a Spring Boot microservice to consume and deserialize
-  high-volume transaction messages using a configurable topic and embedded
-  Kafka test framework.
-- Implemented transaction validation and persistence logic with Spring Data JPA
-  and an H2 SQL database, including entity modeling and balance updates across
-  relational User records.
-- Connected the service to an external REST Incentive API using RestTemplate,
-  processing incentive responses and incorporating them into transactional
-  workflows.
-- Developed a REST endpoint for querying user balances, returning JSON
-  responses through a Spring controller while maintaining clean architectural
-  boundaries.
-- Verified system behavior using Maven test suites and debugger-driven
-  inspection, ensuring reliability across message ingestion, database
-  operations, and external API interactions.
+[Code](https://github.com/iamanjali1003/forage-midas) · [Certificate](assets/certificate.png)
 
-I recently participated in JPMorganChase’s job simulation on the Forage
-platform, and it was incredibly useful to understand what it might be like to
-participate on a backend engineering team at JPMorganChase.
-I worked on a project to build out key components of the Midas
-transaction-processing system, integrating Kafka, a SQL database, and an
-external REST API into a cohesive Spring Boot service. I practiced using Java,
-Spring Boot, Kafka, and SQL, and built my backend development and distributed
-systems skills in a real-world context.
-Doing this program confirmed that I really enjoy working on scalable system
-design, data processing pipelines, and API-driven architectures, and I'm excited
-to apply these skills on a backend engineering team at a company like
-JPMorganChase.
+## Overview
 
-## Project: Midas Core
+A guided simulation in five tasks. Each one adds a piece to Midas Core, a
+Spring Boot service that processes financial transactions. The code lives in
+[forage-midas](https://github.com/iamanjali1003/forage-midas); this repository
+holds the write-up for each task.
 
-A financial transaction processing system integrating Kafka, SQL Database, and REST APIs.
+## What I built
+
+- A Kafka consumer that reads transaction messages from a configurable topic,
+  tested against an embedded Kafka broker
+- Transaction validation and persistence with Spring Data JPA on an H2 database,
+  updating sender and recipient balances
+- A call to an external REST Incentive API with `RestTemplate`, adding the
+  incentive to the recipient's balance
+- A `GET /balance` endpoint that returns a user's balance as JSON
+- Each task checked with its Maven test suite
+
+## Tech stack
+
+| Area | Choice |
+| --- | --- |
+| Language | Java 17 |
+| Framework | Spring Boot 3 |
+| Messaging | Apache Kafka |
+| Persistence | Spring Data JPA, H2 |
+| HTTP | `RestTemplate`, Spring Web |
+| Build | Maven |
 
 ## Tasks
 
-| Task                  | Title                | Status    |
-| --------------------- | -------------------- | --------- |
-| [Task 1](./task-1.md) | Project Setup        | Completed |
-| [Task 2](./task-2.md) | Kafka Integration    | Completed |
-| [Task 3](./task-3.md) | H2 Integration       | Completed |
-| [Task 4](./task-4.md) | REST API Integration | Completed |
-| [Task 5](./task-5.md) | REST API Controller  | Completed |
-
-## Repository
-
-[https://github.com/iamanjali1003/forage-midas](https://github.com/iamanjali1003/forage-midas)
+| Task | Title | Status |
+| --- | --- | --- |
+| [Task 1](task-1.md) | Project setup | Completed |
+| [Task 2](task-2.md) | Kafka integration | Completed |
+| [Task 3](task-3.md) | H2 integration | Completed |
+| [Task 4](task-4.md) | REST API integration | Completed |
+| [Task 5](task-5.md) | REST API controller | Completed |
 
 ## Certificate
 
-![](assets/certificate.png)
+![Certificate of completion](assets/certificate.png)
 
 ## License
 
-[MIT](https://github.com/iamanjali1003/forage-jpmc-virtual-experience/blob/main/LICENSE)
+[MIT](LICENSE) © 2026 [Anjali](https://iamanjali1003.github.io)
